@@ -21,7 +21,7 @@ services:
       - .:/app
       - /app/node_modules
 
-    # command: yarn dev
+    command: yarn dev
     
 
   db:

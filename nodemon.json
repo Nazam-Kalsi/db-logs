@@ -2,5 +2,7 @@
     "watch": ["src"],
     "ext": "js,json,ts",
     "exec": "ts-node src/index.ts",
-    "ignore": ["src/**/*.spec.ts", "src/**/*.test.ts"]
+    "ignore": ["src/**/*.spec.ts", "src/**/*.test.ts"],
+    "legacyWatch": true
+
 }
