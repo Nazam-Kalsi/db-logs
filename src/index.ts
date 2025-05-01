@@ -20,3 +20,6 @@
     
     import userRoutes from './routes/user.route';
     app.use('/u',userRoutes);
+    
+    import postRoutes from './routes/post.route';
+    app.use('/p',postRoutes);
